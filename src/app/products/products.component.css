@@ -1,0 +1,52 @@
+.form-container {
+    max-width: 600px;
+    margin: 20px auto; /* Ajusta el margen para centrar el contenedor */
+    padding: 20px 30px; /* Añade un padding a los lados del contenedor */
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px; /* Agrega un pequeño espacio entre la etiqueta y el campo */
+  }
+  
+  .input-field,
+  .textarea-field,
+  .select-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .textarea-field {
+    resize: vertical; /* Permite redimensionar verticalmente */
+  }
+  
+  .checkbox-field {
+    margin-right: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
