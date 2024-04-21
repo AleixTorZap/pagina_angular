@@ -1,7 +1,7 @@
 .footer {
     background-color: #000;
     color: #fff;
-    padding: 40px 0;
+    padding: 20px 0;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -19,7 +19,8 @@
 }
 
 .footer-logo img {
-    width: 100px; /* Ajustar según el tamaño de tu logo */
+    width: 100px; /* Establece el ancho deseado para la imagen del logo */
+
 }
 
 .footer-links ul {
