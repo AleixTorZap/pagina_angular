@@ -16,6 +16,12 @@ body {
     padding-top: 50px;
 }
 
+.titulo2 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+    margin-bottom: 10px;
+}
 .slider-box {
     width: auto;
     height: auto;
@@ -49,7 +55,22 @@ body {
     margin: 0 auto;
     /* Centrar horizontalmente */
 }
+.tendencias {
+    display: flex;
+    justify-content: space-between;
+}
 
+.tendencias div {
+    margin-right: 10px; /* Ajusta el espacio entre las imágenes */
+}
+.derecha{
+    margin-left: 10px;
+}
+
+.small-image {
+    width: 500px; /* Cambia el tamaño de acuerdo a tus necesidades */
+    height: auto; /* Mantenemos la proporción */
+}
 
 
 @keyframes slide {
